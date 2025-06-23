@@ -2,3 +2,6 @@ pandas
 numpy
 pyarrow
 python-dotenv
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
