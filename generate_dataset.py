@@ -1,3 +1,11 @@
+"""
+generate_dataset.py
+
+— Purpose and Workflow
+This script creates a synthetic consumer spending dataset to simulate real-world transactional behavior. 
+The output is stored in both CSV and Parquet formats for compatibility with ML tools like Amazon SageMaker, pandas, PySpark, etc.
+"""
+
 import pandas as pd
 import numpy as np
 import pyarrow as pa
