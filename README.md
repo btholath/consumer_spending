@@ -75,3 +75,26 @@ Below is a comparison of category distributions under three different sampling t
 - **Stratified Sampling** ensures every category is fairly represented — ideal for classification tasks.
 
 > 🛠 Make sure your plots preserve the `Category` column and fix X-axis labels if numeric placeholders appear.
+
+
+# Phases of Data Cleaning
+- Phase	
+ - 1. Before Data Collection
+   - Description: Plan for clean data	
+   - Typical Cleaning Tasks: Define schema, constraints, formats	
+   - Python Examples: N/A (design/spec phase)
+
+ - 2. During Data Collection		
+   - Description: Ensure incoming data is validated at source
+   - Typical Cleaning Tasks: Validate formats, types, missing values	
+   - Python Examples: Real-time logging, input validation
+
+3. After Data Collection	
+   - Description: Clean the raw dataset	
+   - Typical Cleaning Tasks: Handle duplicates, missing, outliers, normalize text	
+   - Python Examples: ✅ Scripts: remove_duplicates.py, handle_missing.py, etc.
+
+4. During Data Analysis	
+   - Description: Clean for modeling & insights	
+   - Typical Cleaning Tasks: Encode, scale, transform, stratify	
+   - Python Examples: Sampling, outlier detection, feature scaling
